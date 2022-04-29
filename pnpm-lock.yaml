@@ -32,13 +32,13 @@ importers:
 
   src/app:
     specifiers:
-      testing-pnpm-package-a: 1.0.2
-      testing-pnpm-package-b: 1.0.1
-      testing-pnpm-package-c: 1.2.3
+      '@alvarosabu/testing-pnpm-package-a': 1.0.2
+      '@alvarosabu/testing-pnpm-package-b': 1.0.1
+      '@alvarosabu/testing-pnpm-package-c': 1.2.3
     dependencies:
-      testing-pnpm-package-a: link:../packages/package-a
-      testing-pnpm-package-b: link:../packages/package-b
-      testing-pnpm-package-c: link:../packages/package-c
+      '@alvarosabu/testing-pnpm-package-a': link:../packages/package-a
+      '@alvarosabu/testing-pnpm-package-b': link:../packages/package-b
+      '@alvarosabu/testing-pnpm-package-c': link:../packages/package-c
 
   src/packages/package-a:
     specifiers: {}
@@ -52,9 +52,9 @@ importers:
       testing-pnpm-package-b: 1.0.1
       testing-pnpm-package-d: 1.0.8
     dependencies:
-      testing-pnpm-package-a: link:../package-a
-      testing-pnpm-package-b: link:../package-b
-      testing-pnpm-package-d: link:../package-d
+      testing-pnpm-package-a: 1.0.2
+      testing-pnpm-package-b: 1.0.1
+      testing-pnpm-package-d: 1.0.8
 
   src/packages/package-d:
     specifiers: {}
@@ -7708,6 +7708,18 @@ packages:
       source-map: 0.7.3
       source-map-support: 0.5.19
     dev: true
+
+  /testing-pnpm-package-a/1.0.2:
+    resolution: {integrity: sha512-zP2ehii8hrgmzAhfZ+Mzay8uJkrxhxw6r1QxT4qyaPd3eYcXWJHN6H5FkpQfk/S9ifcW+/tuy5CHLIDZKt6tLQ==}
+    dev: false
+
+  /testing-pnpm-package-b/1.0.1:
+    resolution: {integrity: sha512-/2lQiFEz967/UZOtu1KGLQs/YA9yHS/O+1gp4WMeUpQwRxQ5NRYjoMSCpEETVPGcBvgoKzvnlzTrSwpybc31wg==}
+    dev: false
+
+  /testing-pnpm-package-d/1.0.8:
+    resolution: {integrity: sha512-Hij9Y7IWnISSWTw6xxHbmejnFMUFPZTiOvdhiT3TQ0aa+DvwO/LPGHk5mQgRxku2qxYcEomZlI1oMSedH5ovWA==}
+    dev: false
 
   /text-extensions/1.9.0:
     resolution: {integrity: sha512-wiBrwC1EhBelW12Zy26JeOUkQ5mRu+5o8rpsJk5+2t+Y5vE7e842qtZDQ2g1NpX/29HdyFeJ4nSIhI47ENSxlQ==}

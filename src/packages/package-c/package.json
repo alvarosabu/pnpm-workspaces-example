@@ -1,5 +1,5 @@
 {
-  "name": "testing-pnpm-package-c",
+  "name": "@alvarosabu/testing-pnpm-package-c",
   "version": "1.2.3",
   "description": "",
   "amdName": "packageC",

@@ -1,5 +1,5 @@
 {
-  "name": "testing-pnpm-package-a",
+  "name": "@alvarosabu/testing-pnpm-package-a",
   "version": "1.0.2",
   "description": "",
   "amdName": "packageA",

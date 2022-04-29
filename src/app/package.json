@@ -1,7 +1,6 @@
 {
-  "name": "pnpm-app-example",
+  "name": "@alvarosabu/pnpm-app-example",
   "version": "1.1.4",
-  "private": true,
   "description": "",
   "amdName": "app",
   "source": "src/index.js",
@@ -30,8 +29,8 @@
   "author": "DavidWells",
   "license": "ISC",
   "dependencies": {
-    "testing-pnpm-package-a": "1.0.2",
-    "testing-pnpm-package-b": "1.0.1",
-    "testing-pnpm-package-c": "1.2.3"
+    "@alvarosabu/testing-pnpm-package-a": "1.0.2",
+    "@alvarosabu/testing-pnpm-package-b": "1.0.1",
+    "@alvarosabu/testing-pnpm-package-c": "1.2.3"
   }
 }
