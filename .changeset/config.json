@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@1.6.0/schema.json",
-  "changelog": ["@changesets/changelog-github", { "repo": "DavidWells/pnpm-workspaces-example" }],
+  "changelog": ["@changesets/changelog-github", { "repo": "https://github.com/alvarosabu/pnpm-workspaces-example" }],
   "commit": false,
   "linked": [],
   "access": "restricted",
